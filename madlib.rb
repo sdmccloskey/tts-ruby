@@ -1,7 +1,7 @@
 puts " Hello whats your name?"
 user_name = gets.chomp
 
-puts " Welcome to the I dont know what Im doing Madlib " + user_name + "!"
+puts " Welcome to the I dont know what Im doing Madlib #{user_name} !"
 
 puts "Tell me the name of someone famous"
 famous_name = gets.chomp
