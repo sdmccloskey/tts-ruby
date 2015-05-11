@@ -7,13 +7,16 @@ def rollem
   result = [roll1, roll2]
 end
 
-def rollem_rand
+def rollem_rand  
+  # rand(1..6) is a range  
   roll1 = rand(1..6)
   roll2 = rand(1..6)
+  # store the value of roll1 and roll2 in an array and name that array result
   result = [roll1, roll2]
 end
 
-first_roll = rollem_rand
+# first roll stores the variable of the rollem_rand method 
+first_roll = rollem_rand 
 puts "First roll, you rolled: " + first_roll.inspect
 if first_roll[0] == first_roll[1]
   puts "doubles!"
